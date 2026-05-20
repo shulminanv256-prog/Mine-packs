@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'generated.zip'
-
 jobs:
   release:
     runs-on: ubuntu-latest
